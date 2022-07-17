@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  width: 100%; 
+}
+
+.left-panel {
+  background-color: rgb(133, 133, 209);
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 2;
+  box-shadow: 4px 0px 16px rgba(30, 30, 30, 0.08);
+}
+.header-parent {
+  position: fixed;
+  width: 85%;
+  margin-left: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  box-shadow: 4px 0px 16px 10px rgba(30, 30, 30, 0.08);
+  z-index: 2;
+}
+.content-parent {
+  margin-left: 15%;
+  display: flex;
+}
+
+@media only screen and (max-width: 895px) {
+  .left-panel {
+    width: 9%;
+  }
+  .content-parent {
+    margin-left: 9%;
+  }
+  .header-parent {
+    width: 93%;
+    margin-left: 9%;
+  }
+}

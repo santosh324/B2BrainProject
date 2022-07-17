@@ -1,0 +1,119 @@
+.inner-left-panel {
+  background-color: rgb(133, 133, 209);
+  padding-top: 21px;
+  padding-left: 13%;
+  display: flex;
+  flex-direction: column;
+  min-height: 90%;
+}
+.logo-brand {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.item {
+  display: flex;
+  padding-bottom: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-name {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: Manrope;
+}
+.company-name {
+  font-size: 1.4rem;
+}
+.down-arrow,
+.down-arrow2 {
+  position: absolute;
+  left: 84%;
+  margin-top: 3px;
+}
+
+.accordion1,
+.accordion2 {
+  display: none;
+  text-align: left;
+  margin-left: 12px;
+  padding-left: 20px;
+  border-left: 1px solid lightgray;
+}
+
+.accordion1 table tr td,
+.accordion2 table tr td {
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-family: Manrope;
+  font-size: 0.9rem;
+  color: lightcyan;
+}
+
+.intel-info {
+  position: absolute;
+  background-color: #ff7474;
+  border-radius: 7px;
+  color: white;
+  margin-top: 3%;
+  margin-left: 56%;
+  width: 28%;
+  font-size: 0.7rem;
+  box-shadow: none;
+  cursor: pointer;
+  text-align: center;
+}
+.intel-info p {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 895px) {
+  .inner-left-panel {
+    margin-left: 14%;
+  }
+  .item-name {
+    display: none;
+  }
+  .intel-info {
+    display: none;
+  }
+  .down-arrow,
+  .down-arrow2 {
+    display: none;
+  }
+
+  .accordion1,
+  .accordion2 {
+    display: none;
+    position: absolute;
+    background-color: rgb(209, 253, 143);
+    text-align: left;
+    margin-left: 72%;
+    margin-top: -40px;
+    border-left: 1px solid lightgray;
+    transition: 0.5s;
+  }
+
+  .accordion1 table tr td,
+  .accordion2 table tr td {
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-family: Manrope;
+    font-size: 0.9rem;
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 895px) and (max-width: 935px) {
+  .item-name {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,68 @@
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+.text-card {
+  display: flex;
+  flex-direction: column;
+}
+.card-description h6 {
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+.card-font {
+  font-size: 1rem;
+  color: grey;
+}
+.quick-actions {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.account-parent {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-column-gap: 150px;
+  grid-row-gap: 80px;
+}
+
+.quick-actions-table tr td {
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 670px){
+    .top-div{
+      display: flex;
+      flex-direction: column;
+      margin-left: 2%;
+      margin-top: 5%;
+    }
+    .quick-actions{
+      display: flex;
+      flex-direction: row;
+      padding-left: 10px;
+      margin-top: 60px;
+      background-color: beige;
+    }
+    .quick-actions-table{
+      padding-left: 220px;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+  .account-parent {
+    display: grid;
+    grid-template-columns: 75%;
+    grid-column-gap: 150px;
+    grid-row-gap: 80px;
+  }
+}
