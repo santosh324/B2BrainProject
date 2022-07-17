@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/B2BrainProject/static/css/main.6025bad9.css",
+    "main.js": "/B2BrainProject/static/js/main.974e7244.js",
+    "static/js/787.1ad02f2b.chunk.js": "/B2BrainProject/static/js/787.1ad02f2b.chunk.js",
+    "index.html": "/B2BrainProject/index.html",
+    "main.6025bad9.css.map": "/B2BrainProject/static/css/main.6025bad9.css.map",
+    "main.974e7244.js.map": "/B2BrainProject/static/js/main.974e7244.js.map",
+    "787.1ad02f2b.chunk.js.map": "/B2BrainProject/static/js/787.1ad02f2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6025bad9.css",
+    "static/js/main.974e7244.js"
+  ]
+}
